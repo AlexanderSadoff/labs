@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">
+</head>
+<body>
+<table class="container-md align-middle table table-hover">
+    <thead>
+    <tr>
+        <td>ID</td>
+        <td class="w-50">Имя</td>
+        <td>Возраст</td>
+        <td></td>
+    </tr>
+    </thead>
+    <tbody id="guides">
+    </tbody>
+    <tfoot>
+    <tr>
+        <td></td>
+        <td><input id="Name" type="text" placeholder="Имя" class="form-control"></td>
+        <td><input id="Age" type="text" placeholder="Возраст" class="form-control"></td>
+        <td><button class="btn btn-success fa fa-plus" onclick="add()"></button></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td><input id="ID" type="text" placeholder="ID" class="form-control"></td>
+        <td><button class="btn btn-success" onclick="search()">Найти</button></td>
+    </tr>
+    </tfoot>
+</table>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+#red{
+    border: red solid 2px;
+    margin-left: 10px;
+}
+#blue{
+    border: blue solid 2px;
+    margin-left: 140px;
+    margin-top: 30px;
+}
+#green{
+    border: green solid 2px;
+    margin-left: 270px;
+    margin-top: 30px;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background: white;
+
+}

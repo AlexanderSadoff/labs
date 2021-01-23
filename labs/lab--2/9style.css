@@ -1,0 +1,25 @@
+
+.skyblue{
+    padding-left: 12px;
+    padding-right: 40px;
+    text-align: left !important;
+background: lightskyblue !important;
+    font: bold 16px Arial !important;
+    color: white !important;
+
+}
+.skybluemid{
+    text-align: center;
+    padding: 6px;
+    background: lightskyblue !important;
+    font: bold 16px Arial !important;
+    color: white !important;
+
+}
+td{
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    background: lightcyan;
+    font: none 14px Arial;
+}

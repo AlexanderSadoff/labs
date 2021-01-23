@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="CALC_STYLE.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <title>CALCULATOR</title>
+    <script src="CALC_SCRIPT.js"></script>
+</head>
+<body>
+<div id="calc">
+    <div id="resultat">
+    <a id="res">0</a>
+    </div>
+    <div id="buttons_field">
+        <div class="button_row" id="butt_row1">
+            <button  class="btn big" onclick="btnc('C')" style="background: cornflowerblue">C</button>
+            <button class="btn small" onclick="btnc('/')">/</button>
+        </div>
+        <div class="button_row norm" id="butt_row2">
+            <button class="btn" onclick="btnc('7')">7</button>
+            <button class="btn" onclick="btnc('8')">8</button>
+            <button class="btn" onclick="btnc('9')">9</button>
+            <button class="btn" onclick="btnc('*')">*</button>
+
+        </div>
+        <div class="button_row norm" id="butt_row3">
+            <button class="btn" onclick="btnc('4')">4</button>
+            <button class="btn" onclick="btnc('5')">5</button>
+            <button class="btn" onclick="btnc('6')">6</button>
+            <button class="btn" onclick="btnc('-')">-</button>
+
+        </div>
+        <div class="button_row norm" id="butt_row4">
+            <button class="btn" onclick="btnc('1')">1</button>
+            <button class="btn" onclick="btnc('2')">2</button>
+            <button class="btn" onclick="btnc('3')">3</button>
+            <button class="btn" onclick="btnc('+')">+</button>
+
+        </div>
+        <div class="button_row" id="butt_row5">
+            <button class="btn big" onclick="btnc('0')" >0</button>
+            <button class="btn small" onclick="btnc('=')" style="background: seagreen">=</button>
+
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

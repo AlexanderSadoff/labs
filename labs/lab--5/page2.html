@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 3</title>
+</head>
+<script>
+    function DeStroy(){
+        document.getElementById("text1").value = "";
+        document.getElementById("text2").value = "";
+
+    }
+    function CoPy(){
+            if (document.getElementById("text1").value != ''){
+                document.getElementById("text2").value = document.getElementById("text1").value;
+            } else {
+                alert("Поле 1 пустое!");
+            }
+    }
+
+</script>
+<body>
+<button onclick="CoPy()">
+Copy
+</button >
+<button onclick="DeStroy()">
+Clear
+</button>
+<textarea id="text1"></textarea>
+<textarea id="text2"></textarea>
+</body>
+</html>

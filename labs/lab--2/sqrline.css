@@ -1,0 +1,19 @@
+#redl{
+    border: red solid 2px;
+
+}
+#bluel{
+    border: blue solid 2px;
+
+}
+#greenl{
+    border: green solid 2px;
+
+}
+.squarel{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 20px;
+
+}

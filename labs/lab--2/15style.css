@@ -1,0 +1,16 @@
+div{
+    border: black solid 2px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+h2{
+    color: blue;
+    padding-left: 10px;
+}
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.more{
+    text-align: right;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 4</title>
+    <style>
+        table td {
+            padding: 20px;
+            border: 1px solid black;
+        }
+
+    </style>
+    <script>
+        function s() {
+            var xyz = document.querySelector('#xyz');
+            var x = Math.floor(document.getElementById("tab1").value);
+            var y = Math.floor(document.getElementById("tab2").value);
+            CreateTab(xyz, x, y);
+
+            function CreateTab(parent, cols, rows) {
+                var table = document.createElement('table');
+                for (var i = 0; i < rows; i++){
+                    var tr = document.createElement('tr');
+                    for (var j = 0; j < cols; j++){
+                        var td = document.createElement('td');
+                        tr.appendChild(td);
+                    }
+                    table.appendChild(tr);
+
+                }
+                parent.appendChild(table);
+
+            }
+        }
+    </script>
+    <style>
+        table{
+            border-spacing: 0;
+        }
+        td{
+            border: black solid 1px;
+        }
+    </style>
+</head>
+<body>
+<input id="tab1" type="number">
+<input id="tab2" type="number">
+<div id="xyz">
+
+</div>
+<button onclick="s()">Создать</button>
+</body>
+</html>

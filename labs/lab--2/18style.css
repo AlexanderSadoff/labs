@@ -1,0 +1,48 @@
+#res{
+    text-align: right;
+    font-size: 40px;
+    padding-right:10px;
+}
+#calc{
+    border: black solid 2px;
+    width: 400px;
+    border-radius: 10px;
+
+}
+#field{
+
+    width: 100%;
+    border-top: black solid 2px;
+}
+#field table{
+    width: 100%;
+    border: none;
+    font-size: 30px;
+    border-spacing: 10px;
+    color: white;
+}
+#field table td{
+    background-color: darkgray;
+    border-radius: 10px;
+    border: gray solid 2px;
+    text-align: center;
+}
+.bigbutton td{
+    width:80px ;
+    height: 80px;
+}
+.buttons td{
+    width: 80px;
+    height: 80px;
+}
+#qual{
+    height: 80px;
+    background-color: forestgreen !important;
+}
+#Cbutt{
+    height: 80px;
+    background-color: cornflowerblue !important;
+}
+body{
+    background-color: lightgray;
+}
